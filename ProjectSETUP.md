@@ -7,13 +7,13 @@ Adımlar
 1. Bu Depoyu Klonlama
 Bu GitHub deposunu yerel bilgisayarınıza klonlayın:
 
-https://github.com/emrecnksu/PHP_LARAVEL_FRONTEND_PROJECT.git
+https://github.com/emrecnksu/Laravel-Backend-Project.git
 
 
 2. Proje Dizinine Girme
 Klonlama işlemini yaptıktan sonra yeni komut satırında proje klasörüne girmek için şu komutu yazmanız gerekiyor:
 
-cd PHP_LARAVEL_FRONTEND_PROJECT
+cd Laravel-Backend-Project
 
 
 3. Laravel ile Proje Oluşturma ve Kurma:
@@ -27,11 +27,11 @@ Laravel yükleyicisini Composer aracılığıyla global olarak yükleyerek yeni 
 
 composer global require laravel/installer
  
-laravel new example-app
+laravel new Laravel-Backend-Project
 
 Bu adımları uyguladıktan sonra dosyanın bulunduğu path'e girmeniz gerekiyor:
 
-- cd example-app
+- cd Laravel-Backend-Project
 
 
 4. Gerekli olan dosyaları yapılandırma:
@@ -73,7 +73,7 @@ Docker Compose kullanarak uygulamayı başlatmak için aşağıdaki komutu çal�
 - docker-compose up -d
 
 
-Yukarıdaki adımlardan sonra backend projesinin bağlanacağı frontend projesini kurmak için GitHub üzerinden "PHP_LARAVEL_FRONTEND_PROJECT" isimli projeyi alabilirsiniz.
+Yukarıdaki adımlardan sonra backend projesinin bağlanacağı frontend projesini kurmak için GitHub üzerinden "Laravel-Backend-Project" isimli projeyi alabilirsiniz.
 
 
 Kurulum adımları bu projede olduğu gibi Frontend projesinde de ProjectSETUP dosyasında anlatılmıştır.
@@ -89,13 +89,13 @@ Steps
 1. Cloning This Repository
 Clone this GitHub repository to your local computer:
 
-https://github.com/emrecnksu/PHP_LARAVEL_FRONTEND_PROJECT.git
+https://github.com/emrecnksu/Laravel-Backend-Project.git
 
 
 2. Entering the Project Directory
 After cloning, you need to type the following command to enter the project folder in the new command line:
 
-cd PHP_LARAVEL_FRONTEND_PROJECT
+cd Laravel-Backend-Project
 
 
 3. Creating and Installing a Project with Laravel:
@@ -109,11 +109,11 @@ You can create new Laravel projects by installing the Laravel installer globally
 
 composer global require laravel/installer
  
-laravel new example-app
+laravel Laravel-Backend-Project
 
 After following these steps, you need to enter the path where the file is located:
 
-- cd example-app
+- cd Laravel-Backend-Project
 
 
 4. Configuring the required files:
@@ -155,7 +155,7 @@ Run the following command to start the application using Docker Compose:
 - docker-compose up -d
 
 
-After the above steps, you can get the project named "PHP_LARAVEL_FRONTEND_PROJECT" from GitHub to install the frontend project to which the backend project will be connected.
+After the above steps, you can get the project named "Laravel-Backend-Project" from GitHub to install the frontend project to which the backend project will be connected.
 
 
 Installation steps are explained in the ProjectSETUP file in the Frontend project as well as in this project.
